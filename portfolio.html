@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/active-script.js"></script>
+</head>
+
+<body>
+  <!-- Шапка сайта  -->
+  <header class="page-header">
+
+    <nav>
+      <div class="container main-cont">
+        <a href="./index.html" title="Logo" class="logo reset-link" lang="en"><span class="logo-color">Web</span> Studio</a>
+
+        <ul class="menu reset-ul">
+          <li class="items"><a href="./index.html" class="menu-link reset-link">Студия</a></li>
+          <li class="items"><a href="./portfolio.html" class="menu-link reset-link">Портфолио</a></li>
+          <li class="items"><a href="./" class="menu-link reset-link">Контакты</a></li>
+        </ul>
+
+        <ul class="contact reset-ul">
+          <li class="items">
+            <a href="mailto:info@devstudio.com" class="contact-link reset-link" lang="en">
+              <svg class="icon-envelope">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg><span>info@devstudio.com</span></a>
+          </li>
+          <li class="items">
+            <a href="tel:+380961111111" class="contact-link reset-link">
+              <svg class="icon-smartphone">
+                <use href="./images/sprite.svg#icon-smartphone"></use>
+              </svg><span>+38 096 111 11 11</span></a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="portfolio">
+    <div class="container">
+
+      <!-- Придумал заголовок H1  -->
+      <h1 class="portfolio-title reset visually-hidden">Наши работы</h1>
+
+      <nav>
+
+        <ul class="menu-filter reset-ul">
+          <li class="items">
+            <button type="button" class="menu-button reset-button">Все</button>
+          </li>
+          <li class="items">
+            <button type="button" class="menu-button reset-button">Веб-сайты</button>
+          </li>
+          <li class="items">
+            <button type="button" class="menu-button reset-button">Приложения</button>
+          </li>
+          <li class="items">
+            <button type="button" class="menu-button reset-button">Дизайн</button>
+          </li>
+          <li class="items">
+            <button type="button" class="menu-button reset-button">Маркетинг</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="project">
+
+        <ul class="project-list reset-ul">
+
+          <li class="project-items">
+            <a href="" class="project-items-link reset-link">
+<div class="project-items_images">
+              <img src="./images/tehno.jpg" width="370" alt="Технокряк">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset">
+                Технокряк
+            </h3>
+                <p class="project-text reset">Веб-сайт</p>
+               
+              </div>
+
+            </a>
+          </li>
+          <li class="project-items">
+            <!-- По макету я так понял, что при наведении на курсора на весь блок  -->
+            <a href="" class="project-items-link reset-link">
+              <div class="project-items_images">
+              <img src="./images/poster.jpg" width="370" alt="Постер">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset">
+            Постер New Orlean vs Golden Star
+        </h3>
+                <p class="project-text reset">Дизайн</p>
+               
+              </div>
+            </a>
+          </li>
+          <li class="project-items">
+            <a href="" class="project-items-link reset-link">
+              <div class="project-items_images">
+              <img src="./images/restoran.jpg" width="370" alt="Ресторан морепродукты">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset">
+            Ресторан Seafood
+        </h3>
+                <p class="project-text reset">Приложение</p>
+                
+              </div>
+            </a>
+          </li>
+
+          <li class="project-items">
+            <a href="" class="project-items-link reset-link">
+              <div class="project-items_images">
+              <img src="./images/project-prime.jpg" width="370" alt="Проект Прайм">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset">
+                    Проект Prime
+                </h3>
+                <p class="project-text reset">Маркетинг</p>
+              
+              </div>
+            </a>
+          </li>
+          <li class="project-items">
+
+            <a href="" class="project-items-link reset-link">
+              <div class="project-items_images">
+              <img src="./images/project-box.jpg" width="370" alt="Проект ящики">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset">
+                    Проект Boxes
+                </h3>
+                <p class="project-text reset">Приложение</p>
+               
+              </div>
+            </a>
+          </li>
+          <li class="project-items">
+
+            <a href="" class="project-items-link reset-link">
+              <div class="project-items_images">
+              <img src="./images/inspiration.jpg" width="370" alt="Стремление не имеет границ">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset" lang="en">
+                    Inspiration has no Borders
+                </h3>
+                <p class="project-text reset">Веб-сайт</p>
+              
+              </div>
+            </a>
+          </li>
+
+          <li class="project-items">
+            <a href="" class="project-items-link reset-link">
+              <div class="project-items_images">
+              <img src="./images/izdanie.jpg" width="370" alt="Издание">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset" lang="en">
+                    Издание Limited Edition
+                </h3>
+                <p class="project-text reset">Дизайн</p>
+               
+              </div>
+            </a>
+          </li>
+          <li class="project-items">
+            <a href="" class="project-items-link reset-link">
+              <div class="project-items_images">
+              <img src="./images/project-lab.jpg" width="370" alt="Проект лаб">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset">
+                    Проект LAB
+                </h3>
+                <p class="project-text reset">Маркетинг</p>
+               
+              </div>
+            </a>
+          </li>
+          <li class="project-items">
+            <a href="" class="project-items-link reset-link">
+              <div class="project-items_images">
+              <img src="./images/growing.jpg" width="370" alt="Растущий бизнес">
+              <div class="project-items_text">
+                <p class="project-desc reset">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+               </div>
+              </div>
+              <div class="project-block">
+                <h3 class="project-title reset" lang="en">
+                    Growing Business
+                </h3>
+                <p class="project-text reset">Приложение</p>
+              
+              </div>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <div>
+        <a href="./index.html" class="logo-footer reset-link" lang="en"><span class="logo-color">Web</span> Studio</a>
+        <address>
+
+        <ul class="reset-ul">
+            <li class="contact-text">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="marg"><a href="mailto:info@devstudio.com" class="contact-link reset-link" lang="en"> info@devstudio.com </a></li>
+            <li class="marg"><a href="tel:+380961111111" class="contact-link reset-link"> +38 096 111 11 11 </a></li></ul>
+    </address>
+      </div>
+      <div class="social">
+        <b class="social-title reset">присоединяйтесь</b>
+        <ul class="social-list reset-ul">
+          <li class="items">
+            <a href="" class="social-link reset-link">
+              <svg width="20" height="20">
+                <use href="./images/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="items">
+            <a href="" class="social-link reset-link">
+              <svg width="20" height="20">
+                <use href="./images/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="items">
+            <a href="" class="social-link reset-link">
+              <svg width="20" height="20">
+                <use href="./images/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="items">
+            <a href="" class="social-link reset-link">
+              <svg width="20" height="20">
+                <use href="./images/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="footer-form">
+        <b class="social-title reset">Подпишитесь на рассылку</b>
+        <form action="" class="footer-form-action">
+          <input type="email" name="mail" id="mail" placeholder="E-mail"> 
+          <button type="submit" class="button reset-button">Подписаться<svg width="24" height="24" class="footer-botton_icon">
+            <use href="./images/sprite.svg#icon-send"></use>
+          </svg> </button>
+        </form>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
